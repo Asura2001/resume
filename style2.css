@@ -45,7 +45,7 @@ ul {
   margin-left: 3vw;
   padding: 1vw;
   width: 20%;
-  height: 75vw;
+  height: auto;
   text-align: justify;
   background-color: rgb(112, 101, 99);
   color: rgb(240, 240, 240);
