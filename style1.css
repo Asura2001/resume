@@ -66,9 +66,8 @@ ul {
 
 .profile p {
   text-align: left;
-  margin-left: 4vw;
+  margin: 0 4vw;
   line-height: 2vw;
-  max-width: auto;
 }
 
 .profile ul {
