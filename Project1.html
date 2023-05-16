@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="project1.css">
+	<title>Survey Form</title>
+</head>
+<body>
+  <div class="header">
+    <header>Test Survey using HTML and CSS</header>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Project1.html">Project 1</a></li>
+      <li><a href="#project2">Project 2</a></li>
+      <li><a href="#project3">Project 3</a></li>
+    </ul>
+  </nav>
+
+  <form>
+    <div class="name">
+      <label>Name:</label>
+    </div>
+    <div class="iname">
+      <input type="text" name="fname" placeholder="First name">
+      <input type="text" name="lname" placeholder="Last name">
+    </div>
+
+    <div class="address">
+      <label>Address:</label>
+    </div>
+    <div class="iaddress">
+      <input type="text" name="address" id="streetaddress" placeholder="Street address">
+      <input type="text" name="city" placeholder="City">
+      <input type="text" name="region" placeholder="Region">
+      <input type="text" name="code" placeholder="Postal/ Zip code">
+      <select>
+        <option>Afganistan</option>
+        <option>Brazil</option>
+        <option>Kenya</option>
+        <option>Laos</option>
+        <option>Mexico</option>
+        <option>Oman</option>
+        <option>Pakistan</option>
+      </select>
+    </div>
+     
+    <div class="phone">
+      <label>Phone:</label>
+    </div>
+    <div class="iphone">
+      <input type="number" name="phone" placeholder="+############">
+    </div>
+    <div class="email">
+      <label>Email Address:</label>
+    </div>
+    <div class="iemail">
+      <input type="email" name="email" placeholder="email@abc.com">
+    </div>
+
+    <p>1) How long have you been practising HTML?</p>
+    <div class="rhtml">
+      <label><input type="radio" name="html">Less than a year</label>
+      <label><input type="radio" name="html">1 year</label>
+      <label><input type="radio" name="html">2 years</label>
+      <label><input type="radio" name="html">3 years</label>
+      <label><input type="radio" name="html">3+ years</label>
+    </div>
+
+    <p>2) How long have you been practising CSS?</p>
+    <div class="rcss">
+      <label><input type="radio" name="css">Less than a year</label>
+      <label><input type="radio" name="css">1 year</label>
+      <label><input type="radio" name="css">2 years</label>
+      <label><input type="radio" name="css">3 years</label>
+      <label><input type="radio" name="css">3+ years</label>
+    </div>
+
+    <p>3) State your relevant experience in the field.</p>
+    <div class="rexp">
+      <label><input type="radio" name="exp">None</label>
+      <label><input type="radio" name="exp">Fresh</label>
+      <label><input type="radio" name="exp">Intermediate</label>
+      <label><input type="radio" name="exp">Professional</label>
+      <label><input type="radio" name="exp">Expert</label>
+    </div>
+
+    <p>4) How many hours do you practise in a day?</p>
+    <div class="rday">
+      <label><input type="radio" name="day">Less than an hour</label>
+      <label><input type="radio" name="day">1 hour</label>
+      <label><input type="radio" name="day">2 hours</label>
+      <label><input type="radio" name="day">3 hours</label>
+      <label><input type="radio" name="day">4(+) hours</label>
+    </div>
+
+    <p>What do you do in your free time? (Choose all that apply.)</p>
+    <div class="checkbox">
+      <label><input type="checkbox" name="music">Music</label>
+      <label><input type="checkbox" name="reading">Reading</label>
+      <label><input type="checkbox" name="excersice">Excersice</label>
+      <label><input type="checkbox" name="driving">Driving</label>
+    </div>
+
+    <p>Suggestion:</p>
+    <textarea></textarea>
+
+    <input type="submit">
+  </form>
+</body>
+</html>

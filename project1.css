@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f6f4;
+  font-family: cambria, sans-serif;
+  color: #0C134F;
+}
+
+* {
+  border-style: border-box;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Navigation bar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+/*ends here*/
+
+form {
+  background-color: #c4dfdf;
+  max-width: 50%;
+  margin: 30px auto;
+  box-shadow: 0px 10px 10px #aee2ff;
+
+}
+
+.name, .address, .phone, .email, p {
+  font-size: 20px;
+  display: block;
+  margin: 20px 5px 0px 5px;
+  padding: 0px 5px;
+}
+
+.iname, .iaddress, .iphone, .iemail, p {
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+.iname input[type="text"], .iaddress input[type="text"], select, label {
+  display: inline-block;
+  padding: 10px;
+  width: 43%;
+}
+
+select {
+  width: 47%;
+  border-radius: 4px;
+  border: 2px solid;
+}
+
+#streetaddress, .iphone input[type="number"], .iemail input[type="email"], input[type="submit"] {
+  display: inline-block;
+  padding: 10px;
+  width: 92.5%;
+}
+
+/*remove arrows*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Remove default arrows in Firefox */
+}
+
+p {
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.rhtml, .rcss, .rexp, .rday, .checkbox {
+  display: inline-block;
+  margin: 0;
+}
+
+textarea {
+  margin-top: 0px;
+  margin: 20px;
+  width: 92.5%;
+  height: 200px;
+  resize: none;
+  border: 2px solid;
+}
+
+input[type="submit"] {
+  margin: 10px 25px 30px 25px;
+  background-color: #AFD3E2;
+}
+
+input[type="submit"]:hover {
+  background-color: #19A7CE;
+}
+
+input:focus {
+  background-color: #E6FFFD;
+  box-shadow: 0px 5px 5px #E6FFFD;
+}
