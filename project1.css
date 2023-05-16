@@ -7,7 +7,7 @@ body {
 }
 
 * {
-  border-style: border-box;
+  box-sizing: border-box;
   margin: 5px;
   padding: 5px;
   border-radius: 4px;
@@ -51,37 +51,55 @@ form {
   max-width: 50%;
   margin: 30px auto;
   box-shadow: 0px 10px 10px #aee2ff;
-
 }
 
-.name, .address, .phone, .email, p {
+.name,
+.address,
+.phone,
+.email,
+p {
   font-size: 20px;
   display: block;
   margin: 20px 5px 0px 5px;
   padding: 0px 5px;
 }
 
-.iname, .iaddress, .iphone, .iemail, p {
+.iname,
+.iaddress,
+.iphone,
+.iemail,
+p {
   margin: 0px 10px;
   padding: 0px 10px;
 }
 
-.iname input[type="text"], .iaddress input[type="text"], select, label {
+.iname input[type="text"],
+.iaddress input[type="text"],
+select,
+label {
   display: inline-block;
   padding: 10px;
-  width: 43%;
+  width: 47.9%;
 }
 
 select {
-  width: 47%;
+  width: 47.9%;
   border-radius: 4px;
   border: 2px solid;
 }
 
-#streetaddress, .iphone input[type="number"], .iemail input[type="email"], input[type="submit"] {
+#streetaddress,
+.iphone input[type="number"],
+.iemail input[type="email"] {
   display: inline-block;
   padding: 10px;
-  width: 92.5%;
+  width: 98%;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px;
+  width: 92%;
 }
 
 /*remove arrows*/
@@ -102,7 +120,11 @@ p {
   padding-bottom: 0px;
 }
 
-.rhtml, .rcss, .rexp, .rday, .checkbox {
+.rhtml,
+.rcss,
+.rexp,
+.rday,
+.checkbox {
   display: inline-block;
   margin: 0;
 }
@@ -128,4 +150,27 @@ input[type="submit"]:hover {
 input:focus {
   background-color: #E6FFFD;
   box-shadow: 0px 5px 5px #E6FFFD;
+}
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+form {
+max-width: 100%;
+}
+
+.iname input[type="text"],
+.iaddress input[type="text"],
+select,
+label {
+width: 100%;
+}
+
+#streetaddress,
+.iphone input[type="number"],
+.iemail input[type="email"] {
+width: 100%;
+}
+
+input[type="submit"] {
+width: 90.5%;
 }
