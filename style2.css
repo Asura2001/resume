@@ -115,6 +115,7 @@ body {
 
 .head {
   font-size: 15px;
+  height: 150px;
 }
 
 .quote {
@@ -128,10 +129,5 @@ body {
 .image img {
   height: auto;
   max-width: 100%;
-}
-
-.img {
-  height: 100px;
-  width: 50px;
 }
 }
