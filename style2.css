@@ -1,49 +1,45 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Adding it seperately because every hyper-link needs their link underlining removed. */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* It is LIST style type and not TEXT style type to remove the bullets.*/
 ul {
   list-style-type: none;
-  padding: 0.5vw;
-  line-height: 2.5vw;
+  padding: 10px;
+  line-height: 25px;
 }
 
-/* Have to specify height and width so that the text in head does not overlap with it. */
 .image img {
   background-color: rgb(112, 101, 99);
-  padding: 2vw 5vw;
-  padding-right: 5.8vw;
-  margin-left: 3vw;
-  height: 15vw;
-  width: 11vw;
+  padding: 20px 50px;
+  padding-right: 58px;
+  margin-left: 30px;
+  height: 150px;
+  width: 115px;
   float: left;
 }
 
 .head {
-  margin-top: 2vw;
-  padding: 2vw;
-  padding-left: 28vw;
-  height: 15vw;
-  font-size: 2vw;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 280px;
+  height: 150px;
+  font-size: 40px;
   background-color: rgb(116, 131, 134);
   color: rgb(240, 240, 240);
 }
 
-/* Float it left so it does not overlap with the head text. */
 .profile {
-  font-size: 1.2vw;
+  font-size: 24px;
   float: left;
-  margin-left: 3vw;
-  padding: 1vw;
+  margin-left: 30px;
+  padding: 10px;
   width: 20%;
   min-height: 100%;
   overflow: auto;
@@ -56,34 +52,69 @@ ul {
   background-color: #6A3937;
   border: none;
   color: white;
-  padding: 1vw 1vw;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.2vw;
+  font-size: 24px;
   cursor: pointer;
 }
 
 .quote {
   float: left;
   text-align: center;
-  font-size: 2vw;
+  font-size: 40px;
   max-width: 70%;
-  padding: 2vw;
-  padding-bottom: 1vw;
+  padding: 20px;
+  padding-bottom: 10px;
 }
 
 .quote cite {
   text-align: right;
   float: right;
-  font-size: 1.5vw;
-  padding-right: 2vw;
+  font-size: 30px;
+  padding-right: 20px;
 }
 
 .content {
-  font-size: 1.3vw;
+  font-size: 32px;
   float: left;
-  padding: 2vw;
-  padding-top: 0vw;
-  width: 65vw;
+  padding: 20px;
+  padding-top: 0px;
+  width: 650px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+.image img {
+  float: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  padding: 20px;
+  padding-left: 0;
+  height: auto;
+  width: 100%;
+}
+
+.profile {
+  float: none;
+  margin-left: 0;
+  width: 100%;
+}
+
+.quote {
+  float: none;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.content {
+  float: none;
+  width: 100%;
 }
