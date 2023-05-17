@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,34 +11,34 @@ a {
 
 ul {
   list-style-type: none;
-  padding: 10px;
-  line-height: 25px;
+  padding: 5px;
+  line-height: 20px;
 }
 
 .image img {
   background-color: rgb(112, 101, 99);
-  padding: 20px 50px;
-  padding-right: 58px;
-  margin-left: 30px;
-  height: 150px;
-  width: 115px;
+  padding: 10px 20px;
+  padding-right: 29px;
+  margin-left: 15px;
+  height: 75px;
+  width: 55px;
   float: left;
 }
 
 .head {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 20px;
-  padding-left: 280px;
-  height: 150px;
-  font-size: 40px;
+  padding-left: 140px;
+  height: 75px;
+  font-size: 20px;
   background-color: rgb(116, 131, 134);
   color: rgb(240, 240, 240);
 }
 
 .profile {
-  font-size: 24px;
+  font-size: 14px;
   float: left;
-  margin-left: 30px;
+  margin-left: 15px;
   padding: 10px;
   width: 20%;
   min-height: 100%;
@@ -52,18 +52,18 @@ ul {
   background-color: #6A3937;
   border: none;
   color: white;
-  padding: 10px 10px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 24px;
+  font-size: 14px;
   cursor: pointer;
 }
 
 .quote {
   float: left;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   max-width: 70%;
   padding: 20px;
   padding-bottom: 10px;
@@ -72,49 +72,14 @@ ul {
 .quote cite {
   text-align: right;
   float: right;
-  font-size: 30px;
+  font-size: 15px;
   padding-right: 20px;
 }
 
 .content {
-  font-size: 32px;
+  font-size: 16px;
   float: left;
   padding: 20px;
   padding-top: 0px;
-  width: 650px;
-}
-
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 600px) {
-.image img {
-  float: none;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-.head {
-  padding: 20px;
-  padding-left: 0;
-  height: auto;
-  width: 100%;
-}
-
-.profile {
-  float: none;
-  margin-left: 0;
-  width: 100%;
-}
-
-.quote {
-  float: none;
-  max-width: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-.content {
-  float: none;
-  width: 100%;
+  width: 65%;
 }
