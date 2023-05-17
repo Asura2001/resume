@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Resume</title>
-  <link id="styleSheet" rel="stylesheet" type="text/css" href="style1.css">
+  <link id="styleSheet" rel="stylesheet" type="text/css" href="style2.css">
   <script>
     function initialize() {
       var style1button = document.getElementById("style1button");
@@ -27,45 +27,64 @@
 </head>
 
 <body>
-  <div class="image">
-    <img src="avatar.jpg" alt="Image not found.">
+  <div class="container-1">
+    <div class="image">
+      <img src="avatar.jpg" alt="Image not found.">
+    </div>
+
+    <div class="head">
+  	  <h1>Muhammad Bilal Munir</h1>
+      <p>Student</p>
+      <hr>
+    </div>
   </div>
 
-  <div class="head">
-  	<h1>Muhammad Bilal Munir</h1>
-    <p>Student</p>
-    <hr>
-  </div>
+  <div class="container-2">
+    <div class="buttons">
+      <button id="style1button">Style 1</button>
+      <button id="style2button">Style 2</button>
+    </div>
 
-  <div class="profile">
-    <button id="style1button">Style 1</button>
-    <button id="style2button">Style 2</button>
-    <h2>Profile</h2>
-    <p>I am a student of science currently pursuing the Associate Degree of Commerce (ADC).</p>
-    <p>I consider myself a hardworker when it comes to computer related tasks. I have always liked them and I can stay at a desk for long hours.</p>
-    <p>I hope to keep learning new skills so I can keep give my clients the quality work they deserve.</p><hr>
-    <h2>Skills</h2>
-      <ul>
-        <li>Intermediate Html.</li>
-        <li>Intermediate Css.</li>
-        <li>Intermediate JavaScript.</li>
-        <li>Advanced Microsoft Office.</li>
-        <li>Excellent Writing speed.</li>
-      </ul><hr>
-    <h2>Contact me</h2>
-      <p><i class="fa fa-phone"></i> +92 302 8142232</p>
-      <p><i class="fa fa-envelope"></i> <a title="Gmail address" href="https://mail.google.com/mail/" target="_blank">bilalmunir232001@gmail.com</a></p>
-      <p><i class="fa fa-map-marker"></i> <a title="Location" href="https://www.google.com/maps/place/Plot+209,+Farid+Town,+Sahiwal,+Sahiwal+District,+Punjab,+Pakistan/@30.6721844,73.0730699,17z/data=!3m1!4b1!4m6!3m5!1s0x3922c810794a43fb:0x19f2639bd5656b4d!8m2!3d30.6721798!4d73.0756448!16s%2Fg%2F11kf3dxtk8" target="_blank">House number 125, Block X, Scheme Number 3, Farid Town, Sahiwal, Sahiwal District, Punjab, Pakistan</a></p><hr>
-    <h3>Other experience(s)</h3>
-      <p>I have experience in copy writing data from one format (typically images or screenshots) to other formats (usually word or pdf.)</p>
+    <div class="profile">
+      <h2>Profile</h2>
+      <p>I am a student of science currently pursuing the Associate Degree of Commerce (ADC).</p>
+      <p>I consider myself a hardworker when it comes to computer related tasks. I have always liked them and I can stay at a desk for long hours.</p>
+      <p>I hope to keep learning new skills so I can keep give my clients the quality work they deserve.</p><hr>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+        <ul>
+          <li>Intermediate Html.</li>
+          <li>Intermediate Css.</li>
+          <li>Intermediate JavaScript.</li>
+          <li>Advanced Microsoft Office.</li>
+          <li>Excellent Writing speed.</li>
+        </ul><hr>
+    </div>
+
+    <div class="contact">
+      <h2>Contact me</h2>
+        <p><i class="fa fa-phone"></i> +92 302 8142232</p>
+        <p><i class="fa fa-envelope"></i> <a title="Gmail address" href="https://mail.google.com/mail/" target="_blank">bilalmunir232001@gmail.com</a></p>
+        <p><i class="fa fa-map-marker"></i> <a title="Location" href="https://www.google.com/maps/place/Plot+209,+Farid+Town,+Sahiwal,+Sahiwal+District,+Punjab,+Pakistan/@30.6721844,73.0730699,17z/data=!3m1!4b1!4m6!3m5!1s0x3922c810794a43fb:0x19f2639bd5656b4d!8m2!3d30.6721798!4d73.0756448!16s%2Fg%2F11kf3dxtk8" target="_blank">House number 125, Block X, Scheme Number 3, Farid Town, Sahiwal, Sahiwal District, Punjab, Pakistan</a></p><hr>
+    </div>
+
+    <div class="otherexp">
+      <h3>Other experience(s)</h3>
+        <p>I have experience in copy writing data from one format (typically images or screenshots) to other formats (usually word or pdf.)</p>
+    </div>
   </div>
 
   <div class="quote">
     <blockquote><strong>"Working smart is harder than working hard. It’s just less visible, and we care too much about what others see."</strong></blockquote>
+  </div>
+
+  <div class="cite">
     <cite>-Shane Snow</cite>
   </div>
 
-  <div class="content">
+  <div class="education">
   	<h3>Education</h3><hr>
       <ul>
         <li title=" My college"><strong><a href="https://www.gpgcs.edu.pk/" target="_blank">Govt. Post Graduate College, Sahiwal (2018-20)</a></strong></li>
@@ -73,18 +92,25 @@
         <li title="My school"><strong><a href="https://theeducatorssahiwal.com/" target="_blank">The Educators Farid Town Campus, Sahiwal (2016-18)</a></strong></li>
         <li>Matric, Grade A</li>
       </ul>
+  </div>
+
+  <div class="languages">
     <h3>Languages</h3><hr>
       <ul>
         <li>Native Urdu.</li>
         <li>Advanced English.</li>
       </ul>
+  </div>
 
+  <div class="experience">
     <h3>Work eperience</h3><hr>
       <ul>
         <li><strong><a title="Work place" href="https://allaboutpets.pk/">Allaboutpets</a></strong><br>Sales man<br>March 2023 - May 2023</li>
       </ul>
+  </div>
 
-    <h3>Projects</h3><hr>
+  <div class="projects">
+   <h3>Projects</h3><hr>
       <ul>
         <li><a href="Project1.html">Project 1.</a></li>
       </ul>

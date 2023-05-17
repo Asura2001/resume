@@ -1,1 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: cambria, Arial, sans-serif;
+}
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-1 {
+    overflow: auto;
+  }
+  
+.image {
+  float: left;
+  padding: 15px 50px;
+  background-color: #B7C4CF;
+}
+
+.image img {
+  height: 200px;
+  width: 150px;
+}
+
+.head {
+  height: 200px;
+  padding-top: 40px;
+  background-color: #B7C4CF;
+  font-size: 20px;
+}
+
+.container-2 {
+  float: left;
+  width: 290px;
+  overflow: auto;
+}
+
+.buttons {
+  padding: 30px 10px 0px 30px;
+  background-color: #EEE3CB;
+  margin-right: 30px;
+}
+
+.buttons button {
+  background-color: #D7C0AE;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+  
+.buttons button:hover {
+  background-color: #BFAE9C;
+  cursor: pointer;
+}
+  
+.profile, .skills, .contact, .otherexp {
+  margin-right: 30px;
+  background-color: #EEE3CB;
+  padding: 10px;
+}
+
+.quote {
+  padding-top: 40px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.cite {
+  text-align: right;
+  padding: 0 40px 40px 0;
+}
+
+.education, .languages, .experience, .project {
+ line-height: 30px;
+ padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+body {
+  overflow-x: hidden;
+  background-color: #F1F6F9;
+}
+
+.container-2 {
+  width: 98%;
+  margin-right: 0;
+  padding: 2% 4% 5% 4%;
+}
+
+.buttons {
+  padding-left: 29%;
+}
+
+.container-1,
+.quote,
+.cite,
+.education,
+.experience,
+.languages,
+.projects  {
+  max-width: 100%;
+  padding: 2% 4%;
+  margin-right: 0;
+}
+
+.head {
+  font-size: 15px;
+}
+
+.quote {
+  padding-top: 5%;
+}
+
+.cite {
+  padding: 0 5% 5% 0;
+}
+
+.image img {
+  height: auto;
+  max-width: 100%;
+}
+}
