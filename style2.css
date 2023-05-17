@@ -129,4 +129,9 @@ body {
   height: auto;
   max-width: 100%;
 }
+
+.img {
+  height: 100px;
+  width: 50px;
+}
 }
