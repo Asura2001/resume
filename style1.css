@@ -40,38 +40,64 @@ ul {
   border-radius: 50%;
 }
 
-.profile {
+.buttons {
   text-align: center;
-  font-size: 15px;
 }
 
-.profile button {
+.buttons button {
   background-color: #D62828;
-  border: none;
+  border-radius: 4px;
   color: #ffffff;
   padding: 10px 10px;
-  margin: 20px 5px;
-  text-align: center;
+  margin: 20px 1px;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   cursor: pointer;
 }
 
+.buttons button:hover {
+  background-color: #8e1c1c;
+}
+
+.profile,
+.skills,
+.contact,
+.otherexp,
+.languages,
+.education,
+.experience,
+.projects {
+  text-align: center;
+  font-size: 15px;
+}
+
 .profile h2,
-.profile h3 {
+.skills h2,
+.contact h2,
+.otherexp h3,
+.education h3,
+.languages h3,
+.experience h3,
+.projects h3 {
   background-color: #EAE2B7;
   margin: 0 40px;
 }
 
-.profile p {
+.profile p,
+.otherexp p,
+.contact p {
   text-align: left;
   padding-left: 40px;
   padding-right: 40px;
   line-height: 20px;
 }
 
-.profile ul {
+.skills ul,
+.languages ul,
+.education ul,
+.experience ul,
+.projects ul {
   text-align: left;
   padding-left: 40px;
   line-height: 25px;
@@ -92,20 +118,7 @@ ul {
   border: 3px inset;
 }
 
-.content {
-  text-align: center;
-  font-size: 15px;
-}
-
-.content h3 {
-  background-color: #EAE2B7;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 0 40px;
-}
-
-.content ul {
-  text-align: left;
-  padding-left: 40px;
-  line-height: 25px;
+.cite {
+  text-align: right;
+  padding: 50px;
 }
