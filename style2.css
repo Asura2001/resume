@@ -98,10 +98,9 @@ body {
 }
 
 .buttons {
-  padding-left: 29%;
+  text-align: center;
 }
 
-.container-1,
 .quote,
 .cite,
 .education,
@@ -113,8 +112,23 @@ body {
   margin-right: 0;
 }
 
+.container-1 {
+  max-width: 100%;
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+  width: 92%;
+  padding: 1px;
+  margin-left: 4%;
+}
+
 .head {
-  font-size: 10px;
+  display: inline-block;
+  width: 92%;
+  padding: 1px;
+  font-size: 15px;
 }
 
 .quote {
