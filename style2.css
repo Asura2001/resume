@@ -128,9 +128,13 @@ body {
   display: inline-block;
   width: 92%;
   padding: 1px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
+.head hr {
+  display: none;
+ }
+  
 .quote {
   padding-top: 5%;
 }
